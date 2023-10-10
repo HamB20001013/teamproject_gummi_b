@@ -88,20 +88,12 @@ window.addEventListener("load", function () {
   };
   
   var swiper444 = new Swiper(".visualswiper4", {
-    // effect: "coverflow", // Coverflow 효과 설정
     autoplay: {
       delay: 3000,
     },
     loop: true,
     slidesPerView: 5,
     spaceBetween: 40,
-    // coverflowEffect: {
-    //   rotate: 23, // 슬라이드 회전 각도
-    //   stretch: 14, // 슬라이드 사이의 간격
-    //   depth: 100, // 슬라이드의 거리(depth) 설정
-    //   modifier: 1, // 변경된 슬라이드 크기
-    //   slideShadows: false, // 슬라이드 그림자 표시 여부
-    // },
     navigation: {
       prevEl: ".myclass2 .swiper-button-prev",
       nextEl: ".myclass2 .swiper-button-next",

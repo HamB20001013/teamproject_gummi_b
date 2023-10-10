@@ -3,7 +3,6 @@
   padding: 70px 0;
   padding-bottom: 41px;
   background-color: #f7f7f7;
-
 }
 .popualclass h2 {
   position: relative;
@@ -11,7 +10,6 @@
   margin-bottom: 30px;
 }
 .popualclass .swiper-slide {
-  /* background: #eee; */
   transition: all 200ms linear;
   transform: scale(0.8);
 }
@@ -61,7 +59,6 @@
   transform: translateY(-100%);
   transition: opacity 0.3s, transform 0.3s;
   background-color: #b27cd6;
-  /* transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
 }
 .contents2:hover .tooltip {
   visibility: visible;
@@ -93,22 +90,6 @@
 }
 .tooltiptext{
   color: #fff;
-}
-.popualclass .slide1 .popualclass-contents {
-
-  /* background: url("../images/popularclass-diy.png.jpg") no-repeat center / cover; */
-}
-.popualclass .slide2 .popualclass-contents {
-  /* background: url("../images/popularclass-it.jpg") no-repeat center / cover; */
-}
-.popualclass .slide3 .popualclass-contents {
-  /* background: url("../images/popularclasscook.png") no-repeat center / cover; */
-}
-.popualclass .slide4 .popualclass-contents {
-  /* background: url("../images//popularclassmarimo.png") no-repeat center / cover; */
-}
-.popualclass .slide5 .popualclass-contents {
-  /* background: url("../images/keyhos.jpg") no-repeat center / cover; */
 }
 .popualclass .swiper-slide.swiper-slide-active {
   transform: scale(1);
@@ -182,7 +163,6 @@
   background-color: #ae85c9;
   padding: 21px 18px;
   border: none;
-  /* position: absolute; */
   text-align: center;
   white-space: nowrap;
   width: 100%;
@@ -282,7 +262,6 @@
     background-color: #ae85c9;
     padding:5px 13px;
     border: none;
-    /* position: absolute; */
     text-align: center;
     white-space: nowrap;
     width: 100%;
@@ -295,7 +274,6 @@
     background-color:  #a07bb9;
     padding:5px 13px;
     border: none;
-    /* position: absolute; */
     text-align: center;
     white-space: nowrap;
     width: 100%;
@@ -362,7 +340,6 @@
     background-color: #ae85c9;
     padding: 8px 13px;
     border: none;
-    /* position: absolute; */
     text-align: center;
     white-space: nowrap;
     width: 100%;
@@ -375,7 +352,6 @@
     background-color:  #a07bb9;
     padding:5px 13px;
     border: none;
-    /* position: absolute; */
     text-align: center;
     white-space: nowrap;
     width: 100%;
@@ -425,7 +401,6 @@
     background-color: #ae85c9;
     padding: 8px 13px;
     border: none;
-    /* position: absolute; */
     text-align: center;
     white-space: nowrap;
     width: 100%;
@@ -438,7 +413,6 @@
     background-color:  #a07bb9;
     padding:5px 13px;
     border: none;
-    /* position: absolute; */
     text-align: center;
     white-space: nowrap;
     width: 100%;
@@ -446,6 +420,4 @@
     min-width: 80px;
     font-size: 10px;
   }
- 
-  
 }

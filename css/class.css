@@ -1,7 +1,6 @@
 @charset "utf-8";
 .class {
     padding: 50px 0;
-    /* background-color: #d1c3ff52; */
 }
 .myclass {
     width: 100%;
@@ -31,7 +30,6 @@
 }
 .myclass2-1 {
     width: 100%;
-    /* padding-bottom: 6%; */
     background-color: #ffffff;
     border-radius: 10px;
     border: solid #dddddd 1px;
@@ -80,13 +78,12 @@
 }
 table {
     border-collapse: collapse;
-} /*이중선 제거*/
+}
 th,
 td {
     width: 200px;
     height: 50px;
     text-align: center;
-    /* border: 1px solid #000; */
     font-size: 15px;
     vertical-align: top; /* 위 */
     vertical-align: bottom; /* 아래 */
@@ -105,7 +102,6 @@ td > br{
     font-weight: 600;
 }
 .td2 {
-    /* color: #31302b; */
     color: #ae85c9;
     width: 20%;
     font-weight: 700;
@@ -139,18 +135,6 @@ td > br{
     font-size: 30px;
     color: #ae85c9;
 }
-/* @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  .fade-in-table {
-    animation: fadeIn 3s ease-in-out;
-  } */
 .podo33 {
     font-size: 15px;
     color: #9a9ba7;
@@ -183,9 +167,7 @@ td > br{
     height: 20px;
 }
 .myclass33::-webkit-scrollbar-thumb {
-    /* background: #ae85c9; */
     background: #cdccce;
-    /* border: 2px solid #9b6a2f;  */
     border-radius: 12px 12px 12px 12px;
 }
 .myclass33::-webkit-scrollbar-thumb:hover {
@@ -230,7 +212,6 @@ td > br{
 .content {
     width: 100%;
     height: 450px;
-    /* animation: scrollAnimation 15s linear infinite; */
 }
 .content:hover{
     animation-play-state: paused;
@@ -327,7 +308,6 @@ td > br{
     position: relative;
     display: block;
     width: 50%;
-    /* background-color: yellowgreen; */
     margin-left: 5%;
 }
 .left-img img {
@@ -339,7 +319,6 @@ td > br{
     display: block;
     width: 30%;
     height: 100%;
-    /* margin-top: 50px; */
     padding: 1.7% 0.5%;
     border-radius: 13px;
     background-color: #31302b;
@@ -460,11 +439,9 @@ td > br{
     }
     .left-btn {
         width: 42%;
-        /* padding: 2.5% 2%; */
     }
     .right-btn {
         width: 42%;
-        /* padding: 2.5% 2%; */
     }
     .content {
         width: 100%;
@@ -516,13 +493,12 @@ td {
     }
     table {
         border-collapse: collapse;
-    } /*이중선 제거*/
+    }
     th,
     td {
         width: 200px;
         height: 50px;
         text-align: center;
-        /* border: 1px solid #000; */
         font-size: 12px;
         vertical-align: top; /* 위 */
         vertical-align: bottom; /* 아래 */
@@ -570,7 +546,6 @@ td {
         position: relative;
         width: 42%;
         height: 120%;
-        /* margin-top: 28px; */
         border-radius: 13px;
         right: 1%;
     }
@@ -578,14 +553,12 @@ td {
         position: relative;
         width: 42%;
         height: 120%;
-        /* margin-top: 28px; */
         border-radius: 13px;
         left: 1%;
     }
     .bottom-btn {
         position: relative;
         display: block;
-        /* height: 300px; */
     }
 .content {
     width: 100%;
@@ -685,7 +658,6 @@ td {
         position: relative;
         width: 42%;
         height: 120%;
-        /* margin-top: 28px; */
         border-radius: 5px;
         right: 1%;
     }
@@ -693,14 +665,12 @@ td {
         position: relative;
         width: 42%;
         height: 120%;
-        /* margin-top: 28px; */
         border-radius: 5px;
         left: 1%;
     }
     .bottom-btn {
         position: relative;
         display: block;
-        /* height: 300px; */
     }
     .content {
         width: 100%;
@@ -723,7 +693,6 @@ td {
         position: relative;
         width: 42%;
         height: 120%;
-        /* margin-top: 28px; */
         border-radius: 5px;
         padding: 2.5% 3%;
         right: 1%;
@@ -732,7 +701,6 @@ td {
         position: relative;
         width: 42%;
         height: 120%;
-        /* margin-top: 28px; */
         border-radius: 5px;
         padding: 2.5% 3%;
         left: 1%;
@@ -850,7 +818,6 @@ td {
         position: relative;
         width: 42%;
         height: 96%;
-        /* margin-top: 28px; */
         padding: 3% 3%;
         border-radius: 5px;
         right: 1%;
@@ -859,7 +826,6 @@ td {
         position: relative;
         width: 42%;
         height: 96%;
-        /* margin-top: 28px; */
         padding: 3% 3%;
         border-radius: 5px;
         left: 1%;
@@ -907,7 +873,6 @@ td {
 #myclass33{
     font-size: 20px;
 }
-/* myclass5 */
 .myclass5 {
     width: 50%;
     padding-left: 3%;

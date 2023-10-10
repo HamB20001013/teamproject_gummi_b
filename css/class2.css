@@ -1,12 +1,10 @@
 @charset "utf-8";
 .class {
     padding-top: 70px;
-    /* background-color: #d1c3ff52; */
 }
 .class2-1 {
     padding-top: 70px;
     padding-bottom: 70px;
-    /* background-color: #d1c3ff52; */
 }
 .myclassheart {
   position: absolute;
@@ -54,7 +52,6 @@
     padding-bottom: 20px;
     letter-spacing: 1px;
     padding-top: 20px;
-    /* cursor: pointer; */
 }
 
   /* 협약기업 Slider */
@@ -288,9 +285,7 @@ width: 100%;
     height: 20px;
 }
 .myclass33::-webkit-scrollbar-thumb {
-    /* background: #ae85c9; */
     background: #cdccce;
-    /* border: 2px solid #9b6a2f;  */
     border-radius: 12px 12px 12px 12px;
 }
 .myclass33::-webkit-scrollbar-thumb:hover {
@@ -422,7 +417,6 @@ width: 100%;
     position: relative;
     display: block;
     width: 50%;
-    /* background-color: yellowgreen; */
     margin-left: 5%;
 }
 .left-img img {
@@ -434,7 +428,6 @@ width: 100%;
     display: block;
     width: 30%;
     height: 100%;
-    /* margin-top: 50px; */
     padding: 1.7% 0.5%;
     border-radius: 13px;
     background-color: #31302b;
@@ -491,8 +484,6 @@ width: 100%;
         text-overflow: ellipsis;
         white-space: nowrap;
     }
-
- 
 }
 
 @media all and (max-width: 1024px) {
@@ -508,11 +499,9 @@ width: 100%;
     }
     .left-btn {
         width: 42%;
-        /* padding: 2.5% 2%; */
     }
     .right-btn {
         width: 42%;
-        /* padding: 2.5% 2%; */
     }
 
 }
@@ -522,7 +511,6 @@ width: 100%;
     }
     .myclass2-2 h4 {
         font-size: 11px;
-      
     }
    .classtop h2 {
             font-size: 21px;
@@ -531,7 +519,7 @@ width: 100%;
         };
      .classopen {
         top: 22px;
-            font-size: 0.875rem;
+        font-size: 0.875rem;
      }
 }
 @media all and (max-width: 700px) {
@@ -585,7 +573,6 @@ width: 100%;
         position: relative;
         width: 42%;
         height: 120%;
-        /* margin-top: 28px; */
         border-radius: 5px;
         right: 1%;
     }
@@ -593,14 +580,12 @@ width: 100%;
         position: relative;
         width: 42%;
         height: 120%;
-        /* margin-top: 28px; */
         border-radius: 5px;
         left: 1%;
     }
     .bottom-btn {
         position: relative;
         display: block;
-        /* height: 300px; */
     }.classopen {
         color: #747474;
         font-size: 0.975rem;
@@ -611,7 +596,6 @@ width: 100%;
         top: 22px;
         cursor: pointer;
     }
-
 }
 
 @media all and (max-width: 480px) {
@@ -628,7 +612,6 @@ width: 100%;
         position: relative;
         width: 42%;
         height: 120%;
-        /* margin-top: 28px; */
         border-radius: 5px;
         padding: 2.5% 3%;
         right: 1%;
@@ -637,7 +620,6 @@ width: 100%;
         position: relative;
         width: 42%;
         height: 120%;
-        /* margin-top: 28px; */
         border-radius: 5px;
         padding: 2.5% 3%;
         left: 1%;
@@ -681,7 +663,6 @@ width: 100%;
         position: relative;
         width: 42%;
         height: 96%;
-        /* margin-top: 28px; */
         padding: 3% 3%;
         border-radius: 5px;
         right: 1%;
@@ -690,7 +671,6 @@ width: 100%;
         position: relative;
         width: 42%;
         height: 96%;
-        /* margin-top: 28px; */
         padding: 3% 3%;
         border-radius: 5px;
         left: 1%;
@@ -770,8 +750,8 @@ width: 100%;
     line-height: 40px;
     color: #242424;
 }
-/* 자주 묻는 질문 */
 
+/* 자주 묻는 질문 */
 .class2 {
     padding: 70px 0;
     padding-bottom: 50px;
