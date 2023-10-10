@@ -1,24 +1,3 @@
-/* 공통 */
-/* .header .inner {
-width: 100%;
-padding: 0px 25px;
-margin: 0 auto;
-max-width: 1420px;
-height: 100%;
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
-.footer .inner {
-width: 100%;
-padding: 0px 25px;
-margin: 0 auto;
-max-width: 1420px;
-height: 100%;
-display: flex;
-justify-content: space-between;
-align-items: center;
-} */
 /* 페이지 공간 */
 .sub_subscription {
     background-color: #f7f7f7;
@@ -32,7 +11,6 @@ align-items: center;
     height: 100%;
     }
     .subscription_wrap{
-    /* background-color: aquamarine; */
     display: flex;
     padding-top: 20px;
     padding-bottom: 50px;
@@ -66,9 +44,6 @@ align-items: center;
     font-size: 17px;
     padding: 25px 0 8px 0;
     }
-    /* .subscription_left_inner h3:first-child {
-    padding: 25px 0 8px 0;
-    } */
     .subscription_left_inner p {
     font-size: 15px;
     line-height: 27px;
@@ -174,8 +149,6 @@ align-items: center;
     background-color: #F2F3F7;
     }
     .subscription_profile_basic {
-    /* padding: 15px 10px; */
-    /* padding: 45px 10px 50px 20px; */
     padding: 5%;
     }
     .subscription_profile_basic span {
@@ -184,7 +157,6 @@ align-items: center;
     padding-left: 3px;
     }
     .subscription_profile_box ul {
-    /* width: 90%; */
     display: flex;
     text-align: center;
     justify-content: space-evenly;
