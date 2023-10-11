@@ -85,3 +85,23 @@ popup.style.display = 'none';
 });
 }) 
 
+
+// 폰트 사이즈 확대, 축소 효과
+$(function(){
+var startingSize = 12;
+$(".zoomBtnZone button").on("click", zoomInOut);
+
+function zoomInOut(){
+if($(this).hasClass("zoomOut")){
+if(startingSize <= 10) return false;
+startingSize--;
+} else if($(this).hasClass("zoomIn")){
+if(startingSize >= 20) return false;
+startingSize++;
+} else {
+startingSize = 15;
+}
+// "content" 클래스를 가진 요소의 글자 크기만 변경
+$(".content").css({fontSize: startingSize + "px"});
+}
+});
