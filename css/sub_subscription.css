@@ -380,8 +380,9 @@ color: #ffff;
 .content {
 padding: 0 18px;
 max-height: 0;
-overflow: hidden;
+overflow: auto;
 transition: max-height 0.2s ease-out;
+
 }
 .collapsible:after {
 content: '\002B';
